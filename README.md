@@ -1,5 +1,9 @@
 # 1D Calculator
 
+## Code:
+Check out the bulk of code **[here](https://github.com/afriedsam/Physics-Calculator/blob/main/1D%20Kinematics%20Calculator/ViewController.swift)**
+or navigate to: /1D Kinematics Calculator/ViewController.swift in this Repo.
+
 ## Description:
 This repository has all of the code for the 1D Kinematics Calculator App on the Apple App Store. The app uses the following equations to solve one dimensional kinematics equations:
 - <img src="https://render.githubusercontent.com/render/math?math=v=v_0+at">
