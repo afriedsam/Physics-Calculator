@@ -10,12 +10,12 @@
 		91D044F4258016EE00C9D74E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D044F3258016EE00C9D74E /* AppDelegate.swift */; };
 		91D044F6258016EE00C9D74E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D044F5258016EE00C9D74E /* SceneDelegate.swift */; };
 		91D044F8258016EE00C9D74E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D044F7258016EE00C9D74E /* ViewController.swift */; };
-		91D044FB258016EE00C9D74E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D044F9258016EE00C9D74E /* Main.storyboard */; };
 		91D044FE258016EE00C9D74E /* _D_Kinematics_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91D044FC258016EE00C9D74E /* _D_Kinematics_Calculator.xcdatamodeld */; };
 		91D04500258016EF00C9D74E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D044FF258016EF00C9D74E /* Assets.xcassets */; };
-		91D04503258016EF00C9D74E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D04501258016EF00C9D74E /* LaunchScreen.storyboard */; };
 		91D0450E258016EF00C9D74E /* _D_Kinematics_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D0450D258016EF00C9D74E /* _D_Kinematics_CalculatorTests.swift */; };
 		91D04519258016EF00C9D74E /* _D_Kinematics_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D04518258016EF00C9D74E /* _D_Kinematics_CalculatorUITests.swift */; };
+		91D04531258018D700C9D74E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D0452F258018D700C9D74E /* Main.storyboard */; };
+		91D04532258018D700C9D74E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D04530258018D700C9D74E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +40,8 @@
 		91D044F3258016EE00C9D74E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D044F5258016EE00C9D74E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		91D044F7258016EE00C9D74E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		91D044FA258016EE00C9D74E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91D044FD258016EE00C9D74E /* _D_Kinematics_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _D_Kinematics_Calculator.xcdatamodel; sourceTree = "<group>"; };
 		91D044FF258016EF00C9D74E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		91D04502258016EF00C9D74E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91D04504258016EF00C9D74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91D04509258016EF00C9D74E /* 1D Kinematics CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1D Kinematics CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D0450D258016EF00C9D74E /* _D_Kinematics_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Kinematics_CalculatorTests.swift; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		91D04514258016EF00C9D74E /* 1D Kinematics CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1D Kinematics CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D04518258016EF00C9D74E /* _D_Kinematics_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Kinematics_CalculatorUITests.swift; sourceTree = "<group>"; };
 		91D0451A258016EF00C9D74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D0452F258018D700C9D74E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		91D04530258018D700C9D74E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +101,12 @@
 		91D044F2258016EE00C9D74E /* 1D Kinematics Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				91D04530258018D700C9D74E /* LaunchScreen.storyboard */,
+				91D0452F258018D700C9D74E /* Main.storyboard */,
 				91D044F3258016EE00C9D74E /* AppDelegate.swift */,
 				91D044F5258016EE00C9D74E /* SceneDelegate.swift */,
 				91D044F7258016EE00C9D74E /* ViewController.swift */,
-				91D044F9258016EE00C9D74E /* Main.storyboard */,
 				91D044FF258016EF00C9D74E /* Assets.xcassets */,
-				91D04501258016EF00C9D74E /* LaunchScreen.storyboard */,
 				91D04504258016EF00C9D74E /* Info.plist */,
 				91D044FC258016EE00C9D74E /* _D_Kinematics_Calculator.xcdatamodeld */,
 			);
@@ -234,9 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91D04503258016EF00C9D74E /* LaunchScreen.storyboard in Resources */,
+				91D04531258018D700C9D74E /* Main.storyboard in Resources */,
+				91D04532258018D700C9D74E /* LaunchScreen.storyboard in Resources */,
 				91D04500258016EF00C9D74E /* Assets.xcassets in Resources */,
-				91D044FB258016EE00C9D74E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,25 +299,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		91D044F9258016EE00C9D74E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91D044FA258016EE00C9D74E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		91D04501258016EF00C9D74E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91D04502258016EF00C9D74E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		91D0451B258016EF00C9D74E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -370,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -443,14 +424,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5QV2GBV64;
 				INFOPLIST_FILE = "1D Kinematics Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FriedsamEngineering.-D-Kinematics-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,14 +445,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5QV2GBV64;
 				INFOPLIST_FILE = "1D Kinematics Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FriedsamEngineering.-D-Kinematics-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
